@@ -6,3 +6,4 @@ I'm using express to create backend for my project
 
 ## Endpoints used : 
 1. Home : '/home'
+2. MonDB connection check : '/mongoDbconn'
