@@ -1,0 +1,18 @@
+meta {
+  name: addNovelDetails
+  type: http
+  seq: 9
+}
+
+post {
+  url: http://localhost:3000/api/novelsData
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "novelname": "book2",
+    "novelwrittenby": "writter2"
+  }
+}
