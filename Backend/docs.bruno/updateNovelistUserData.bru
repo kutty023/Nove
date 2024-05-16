@@ -1,0 +1,18 @@
+meta {
+  name: updateNovelistUserData
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:3000/api/novelistUserData/663db950f056e13955a416f2
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "username" : "Athi",
+    "useremail" : "thiaaru23@gmail.com"
+  }
+}
