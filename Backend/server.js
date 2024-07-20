@@ -38,7 +38,7 @@ app.get('/mongoDbconn', (req,res) => {
 // ----->
 
 // Calling router 
-app.use('/',route)
+app.use('/',routes)
 
 
 if (require.main === module){
